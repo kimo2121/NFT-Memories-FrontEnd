@@ -1,0 +1,74 @@
+.collectionItem_container {
+  display: flex;
+  align-items: center;
+  background: white;
+  width: 100%;
+  height: 50vh;
+  justify-content: flex-start;
+}
+
+.collectionItem_logo {
+  width: 250px;
+  height: 250px;
+  object-fit: contain;
+}
+.collectionItem_btn {
+  width: 30;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+.collectionItem_btnContianer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  background: white !important;
+  height: 10vh;
+  margin-top: -2.5rem;
+}
+.collectionItem_hr {
+  width: 80%;
+  margin-left: 3.5rem;
+}
+.collectionItem_Items {
+  display: flex;
+  align-items: center;
+  opacity: 0.8;
+  margin-left: -4rem;
+}
+
+.MuiSvgIcon-root {
+  font-size: 1.5rem;
+}
+@media only screen and (max-width: 1024px) {
+  .collectionItem_container {
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .collectionItem_container {
+    /* flex-direction: column; */
+    height: 300px;
+  }
+  .collectionItem_logo {
+    width: 150px;
+    height: 150px;
+  }
+  .collectionItem_btn {
+    /* width:40 */
+    margin: 2rem;
+  }
+  .collectionItem_btnContianer {
+    height: 150px;
+    margin-top: -1rem;
+  }
+  .collectionItem_hr {
+    width: 100%;
+    margin-left: 0.5rem;
+  }
+  .collectionItem_Items {
+    margin-bottom: -5rem;
+  }
+  .MuiSvgIcon-root {
+    font-size: 0.5rem;
+  }
+}

@@ -1,0 +1,116 @@
+.trading-history {
+  width: 95%;
+  border: 1px solid #cecece;
+  border-radius: 4px;
+  overflow-y: hidden;
+  margin: auto;
+}
+.what-so-ever {
+  margin-bottom: 30px;
+  width: 90%;
+  overflow-x: scroll;
+}
+.trading-title {
+  align-items: center;
+  display: flex;
+  min-width: 1500px;
+  font-size: 20px;
+  padding-left: 22px;
+  height: 80px;
+}
+.history-titles {
+  display: flex;
+  align-items: center;
+  min-width: 1500px;
+  text-align: left;
+  border-bottom: 1px solid #cecece;
+  border-top: 1px solid #cecece;
+}
+.each-traded-item {
+  min-width: 1500px;
+  height: 144px;
+  align-items: center;
+  display: flex;
+  padding-left: 15px;
+  border-bottom: 1px solid #cecece;
+}
+.span__event {
+  width: 120px;
+  text-align: left;
+}
+.span__item {
+  display: flex;
+  align-items: center;
+  width: 320px;
+  text-align: left;
+}
+.span__unit-price,
+.span__quantity {
+  /* width: 6.63vw; */
+  width: 110px;
+  text-align: left;
+}
+.span__from {
+  /* width: 11.27vw; */
+  width: 120px;
+  text-align: left;
+}
+.span__to {
+  /* width: 11.56vw; */
+  width: 120px;
+  text-align: left;
+}
+.span__date {
+  display: flex;
+  align-items: center;
+  width: 165px;
+  text-align: left;
+}
+.each-traded-item img {
+  height: 40px;
+  width: 40px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+.trading-history span {
+  font-size: 20px;
+}
+.each-row-in-table {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cecece;
+  height: 50px;
+  padding: 0 2vw;
+}
+@media only screen and (max-width: 1440px) {
+  .each-traded-item {
+    height: 72px;
+  }
+  .trading-history span {
+    font-size: 16px;
+  }
+  .trading-title {
+    height: 56px;
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  /* .trading-history {
+    border: none;
+  } */
+  .trading-title {
+    margin-bottom: 2vh;
+    align-items: center;
+    display: flex;
+    min-width: 1000px;
+  }
+
+  .history-titles {
+    min-width: 1000px;
+    /* padding: 1rem; */
+  }
+  .each-traded-item {
+    min-width: 1000px;
+  }
+}

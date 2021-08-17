@@ -1,0 +1,84 @@
+.burger-icon {
+  stroke-width: 2px;
+  position: relative;
+  /* right: 60%; */
+}
+.burger-icon:hover {
+  cursor: pointer;
+}
+
+.burger-nav-links {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-evenly;
+  color: white;
+  height: 40%;
+}
+.burger-nav-links a {
+  color: white;
+  text-decoration: none;
+}
+.burger-nav-links a:hover {
+  color: gray;
+}
+.x-icon {
+  color: rgb(177, 169, 169) !important;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.6s;
+  stroke-width: 10px;
+}
+.x-icon.active {
+  left: 20px;
+  top: 20px;
+  opacity: 1;
+  color: rgb(24, 24, 24) !important;
+  position: fixed;
+  stroke-width: 10px;
+}
+.x-icon:hover {
+  cursor: pointer;
+  color: #e2dddd !important;
+}
+
+.burger-menu {
+  line-height: normal;
+  background-color: #dfe1e0;
+  width: 300px;
+  min-width: 190px;
+  z-index: 10000;
+  height: 100%;
+  position: fixed;
+  left: -110%;
+  border-left: rgba(255, 255, 255, 0.226) 1px solid;
+  top: 0;
+  transition: 550ms;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.svg-icons {
+  vertical-align: top;
+}
+.burger-menu-content {
+  height: 100%;
+  /* overflow-y: scroll; */
+  overflow: hidden;
+  width: 100%;
+  margin: auto 0;
+}
+.burger-menu.active {
+  left: 0;
+}
+.backdrop {
+  left: 0;
+  top: 0;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.541);
+}

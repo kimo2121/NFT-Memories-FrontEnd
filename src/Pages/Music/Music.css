@@ -1,0 +1,16 @@
+.music {
+  display: flex;
+}
+.page-name {
+  font-size: 48px;
+  position: relative;
+  /* left: 27.3vw; */
+  /* top: 20.9vh; */
+}
+.music-page-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-top: 25.4vh; */
+  padding-left: 32px;
+}

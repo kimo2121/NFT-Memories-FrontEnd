@@ -1,0 +1,36 @@
+.menuItem_contianer {
+  display: flex;
+  align-items: center;
+  height: 2rem;
+}
+.menuItem_text {
+  letter-spacing: 1.5px;
+  font-family: Montserrat;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+
+.menuItem_icon {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  padding-top: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .menuItem_contianer {
+    margin-right: 3rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .menuItem_contianer {
+    margin-right: 1rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .menuItem_text {
+    display: none;
+  }
+  .menuItem_contianer {
+    margin-right: 1.5rem;
+  }
+}

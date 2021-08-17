@@ -1,0 +1,18 @@
+.activity-page {
+  display: flex;
+  width: 100%;
+}
+.activity-page-content {
+  display: flex;
+  width: 100%;
+
+  flex-wrap: wrap;
+  justify-content: center;
+  /* margin-left: 19px; */
+}
+.activity-name {
+  margin: 0 auto;
+  margin-top: 31px;
+  margin-bottom: 73px;
+  font-size: 48px;
+}

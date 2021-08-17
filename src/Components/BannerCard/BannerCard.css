@@ -1,0 +1,65 @@
+.banner-card {
+  width: 445px;
+  position: relative;
+  z-index: 20;
+}
+.banner-card img {
+  height: 595px;
+  width: 445px;
+}
+.ban-card-details {
+  margin-top: -0.5vh;
+  display: flex;
+  background-color: white;
+  align-items: center;
+  justify-content: space-around;
+  height: 81px;
+  /* border: 1px solid #707070; */
+}
+.ban-card-details-btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95px;
+  padding-right: 0.7vw;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  background-image: linear-gradient(#ed1c24, #770e12);
+  height: 31px;
+  border: 1px solid #707070;
+  border-radius: 7px;
+  outline: none;
+}
+
+.ban-card-details img {
+  width: 63px !important;
+  height: 63px !important ;
+  border-radius: 50px;
+}
+.ban-card-details-btn img {
+  width: 25px !important;
+  height: 25px !important;
+}
+@media only screen and (max-width: 1024px) {
+  .banner-card {
+    width: 345px;
+    position: relative;
+    z-index: 20;
+  }
+  .banner-card img {
+    height: 495px;
+    width: 345px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .banner-card {
+    width: 300px;
+    position: relative;
+    z-index: 20;
+  }
+  .banner-card img {
+    height: 400px;
+    width: 300px;
+  }
+}

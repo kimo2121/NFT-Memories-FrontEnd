@@ -1,0 +1,131 @@
+.marketplace-panel {
+  position: relative;
+  width: 341px;
+  height: 100%;
+  background-color: #c9ced6;
+}
+.marketplace-panel.side-bar-size {
+  width: 300px;
+}
+.status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1vw;
+  height: 63px;
+  font-size: 20px;
+  font-weight: bold;
+  background: #fffdfd;
+  border: 1px solid #707070;
+}
+.status:hover {
+  cursor: pointer;
+}
+.status div {
+  display: flex;
+  align-items: center;
+}
+.status img {
+  margin-right: 2vw;
+}
+
+.hidden-status-menu {
+  background: transparent;
+  height: 165px;
+}
+.conditional-star {
+  fill: #b8b8b8;
+  margin-right: 2vw;
+}
+.conditional-star.active {
+  fill: red;
+}
+.buy-now-btn,
+.on-auction-btn,
+.new-btn,
+.has-offers-btn {
+  width: 141px;
+  margin-top: 1vh;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  background-color: white;
+  border: 1px solid #e6e7e9;
+}
+.buy-now-btn:hover,
+.on-auction-btn:hover,
+.new-bt:hover,
+.has-offers-btn:hover {
+  cursor: pointer;
+}
+.buy-now-btn.active,
+.on-auction-btn.active,
+.new-btn.active,
+.has-offers-btn.active {
+  background-color: red;
+  color: white;
+}
+.buy-now-btn,
+.on-auction-btn {
+  margin-top: 5.2vh;
+}
+.buy-now-btn,
+.new-btn {
+  margin-right: 1vw;
+}
+.normal-arrow {
+  transition: transform 0.2s;
+}
+.normal-arrow.rotate {
+  transform: rotate(-180deg);
+}
+.price-menu {
+  height: 230px;
+  margin-bottom: 21px;
+}
+.apply-btn {
+  width: 273px;
+  height: 52px;
+  background-color: #ff000a;
+  color: white;
+  font-size: 20px;
+  border-radius: 16px;
+  outline: none;
+  border: none;
+  margin-top: 31px;
+}
+.min-max-values {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 7px;
+}
+.min-max-values label {
+  padding-left: 0.5vw;
+}
+.min-max-values input {
+  width: 100px;
+  padding-left: 0.5vw;
+  margin-top: 7px;
+  outline: none;
+  height: 42px;
+  border: 1px solid #ccd4e0;
+  border-radius: 8px;
+}
+.min-max-values span {
+  width: 30px;
+  height: 2px;
+  /* margin: auto 0; */
+  margin-top: 30px;
+  background-color: #919191;
+}
+.MuiSlider-thumb {
+  background-color: white !important;
+  border: solid 2px red !important;
+  width: 20px !important;
+  height: 20px !important;
+  margin-top: -3.5% !important;
+}

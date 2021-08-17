@@ -1,0 +1,52 @@
+.auction-offers-card {
+  width: 325px;
+  height: 460px;
+  position: relative;
+  border: 1px solid #707070;
+  border-radius: 6px;
+  margin-right: 13px;
+  margin-bottom: 13px;
+}
+
+.favourite-card {
+  stroke: #707070;
+  fill: none;
+  margin-right: 6px;
+}
+
+.auction-offers-card img {
+  width: 310px;
+  height: 300px;
+  border-radius: 10px !important;
+  margin-top: 1rem;
+  object-fit: fill;
+}
+
+.auction-offer-details {
+  margin-top: 1rem;
+  padding: 0 0.5rem;
+}
+
+.auction-first-detail {
+  color: #707070;
+  font-size: 14px;
+}
+.auction-second-detail {
+  font-size: 1rem;
+  color: black;
+}
+.auction-first-detail,
+.auction-second-detail {
+  padding: 0 0.6vw;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+  justify-content: space-between;
+  display: flex;
+}
+.auction-remaining-time,
+.favourite-icon-container {
+  display: flex;
+  padding-right: 0.6vw;
+  justify-content: flex-end;
+  font-size: 11px;
+}

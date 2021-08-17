@@ -1,0 +1,28 @@
+.trending-card {
+  width: 360px;
+  margin: 4vh;
+}
+.trending-card img {
+  height: 240px;
+  width: 360px;
+}
+.tren-card-details {
+  margin-top: -0.8vh;
+  height: 151px;
+  border: 1px solid #77838f69;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+}
+.image-circle {
+  position: relative;
+  margin: -14% auto 0 auto;
+}
+.image-circle img {
+  width: 100px;
+  height: 100px;
+}
+.tren-card-details p {
+  width: 95%;
+  font-size: 16px;
+  margin: 1vh auto;
+}

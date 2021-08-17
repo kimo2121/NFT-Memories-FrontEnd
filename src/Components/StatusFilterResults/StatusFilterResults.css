@@ -1,0 +1,30 @@
+.trading-filter {
+  display: flex;
+  height: 33px;
+  margin-left: 30px;
+  margin-top: 23px;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 5vh;
+}
+.each-filtered-item {
+  border: 1px solid #48b3d5;
+  display: flex;
+  align-items: center !important;
+  padding: 1vh 1vw;
+  margin-right: 1vw;
+  background: #f5fafe;
+}
+.each-filtered-item svg {
+  margin-top: 0.5vh;
+  margin-left: 0.2vw;
+}
+.each-filtered-item svg:hover {
+  cursor: pointer;
+}
+.clear-all-filters {
+  color: #48b3d5;
+}
+.clear-all-filters:hover {
+  cursor: pointer;
+}

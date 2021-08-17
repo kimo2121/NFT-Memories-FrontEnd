@@ -1,0 +1,42 @@
+.exclusive-card {
+  width: 400px;
+  margin: 4vh;
+}
+.exclusive-card img {
+  width: 400px;
+  height: 400px;
+}
+.ex-card-details {
+  margin-top: -0.7vh;
+  border: 1px solid #77838f69;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  height: 151px;
+}
+
+.ex-card-details button {
+  border: 1px solid #707070;
+  color: white;
+  font-weight: bold;
+  width: 111px;
+  height: 37px;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: red;
+}
+
+@media only screen and (max-width: 668px) {
+  .exclusive-card img {
+    width: 280px;
+    height: 280px;
+  }
+  .exclusive-card {
+    width: 280px;
+  }
+  .ex-card-details {
+    height: 101px;
+  }
+  .ex-card-details button {
+    font-size: 16px;
+  }
+}

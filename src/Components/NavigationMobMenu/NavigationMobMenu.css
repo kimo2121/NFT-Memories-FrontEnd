@@ -1,0 +1,29 @@
+.navigation-mobMenu-content {
+  text-align: left;
+  width: 100%;
+  height: 1rem;
+}
+.navigation-mobMenu-content a {
+  color: black;
+}
+.each-dropdown-item_.mobile {
+  width: 100%;
+  border-left: red 13px solid;
+}
+.each-dropdown-item_ {
+  height: 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  /* line-height: 94px; */
+  padding-left: 23.8px;
+  border-bottom: solid 1px #707070;
+  /* margin-bottom: 0.5rem; */
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.each-dropdown-item_ img {
+  margin-right: 17.3px;
+  vertical-align: middle;
+  width: 1.5rem;
+  /* display: none; */
+}

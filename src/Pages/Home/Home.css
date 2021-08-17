@@ -1,0 +1,131 @@
+.banner {
+  min-height: 739px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  position: relative;
+  align-items: center;
+}
+.backdrop-image {
+  width: 100%;
+  background-image: url("../../assets/images/banner.png");
+  background-position: center;
+  position: absolute;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(6px);
+  -webkit-filter: blur(6px);
+  /* background-color: pink; */
+  opacity: 1;
+}
+.backdrop-color {
+  background-color: rgba(255, 192, 203, 0.13);
+  width: 100%;
+  height: 739px;
+  z-index: 1;
+  position: absolute;
+}
+.banner-info {
+  text-align: left;
+  width: 544px;
+  position: relative;
+}
+.banner-info p {
+  font-size: 36px;
+}
+.banner-info h1 {
+  font-size: 48px;
+}
+.banner-info button {
+  position: relative;
+  width: 191px;
+  z-index: 100;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #ff0000;
+  border: 1px solid #707070;
+  border-radius: 16px;
+  height: 73px;
+}
+
+.exclusive-memories,
+.trending-all-categories {
+  display: flex;
+  margin-top: 5vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.trending-all-categories {
+  margin-bottom: 7.4vh;
+}
+.sell-nfts h1 {
+  margin: 8.1vh 0 13.25vh 0 !important;
+}
+.sell-nfts-continer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}
+.sell-nfts-continer h2 {
+  margin-top: 6.5vh;
+}
+.each-sell-nfts-continer {
+  width: 329px;
+}
+.each-sell-nfts-continer p {
+  margin: 1vh auto 8vh auto;
+  width: 90%;
+}
+@media only screen and (max-width: 1024px) {
+  .banner {
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  .banner-info {
+    margin-bottom: 5vh;
+    text-align: center;
+  }
+  .banner-info p {
+    font-size: 26px;
+  }
+  .banner-info h1 {
+    font-size: 34px;
+  }
+  .banner-info button {
+    font-size: 26px;
+    width: 172px;
+    height: 65.7px;
+  }
+}
+@media only screen and (max-width: 668px) {
+  .banner-info {
+    margin-bottom: 0;
+  }
+  .banner-info h1 {
+    font-size: 1rem;
+  }
+  .exclusive-cards-div h1,
+  .trending-all-categories-div h1,
+  .sell-nfts h1 {
+    font-size: 1.2rem;
+  }
+  .each-sell-nfts-continer h2 {
+    font-size: 18px;
+  }
+  .banner-info p {
+    font-size: 1rem;
+  }
+  .banner-info button {
+    font-size: 16px;
+    width: 128px;
+    height: 42px;
+  }
+  .each-sell-nfts-continer img {
+    width: 70px;
+  }
+}

@@ -1,0 +1,19 @@
+.music-photo-card {
+  height: 460px;
+  width: 325px;
+  background-color: white;
+  border: 1px solid #e6e6e6;
+  border-radius: 8px;
+  margin-bottom: 33px;
+  margin-right: 26px;
+}
+.music-photo-card p {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 1.5vw;
+}
+.number-view-btn {
+  margin-top: 5%;
+  /* margin-left: 13.3%; */
+  /* margin-top: 5%; */
+}

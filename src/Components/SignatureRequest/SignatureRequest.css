@@ -1,0 +1,97 @@
+.signature-request {
+  width: 462px;
+  height: 759px;
+  background: white;
+  position: absolute;
+  z-index: 1000;
+  right: 1%;
+  top: 11%;
+  border-radius: 9px;
+  padding: 0;
+  border: 1px solid rgb(66, 66, 66);
+}
+
+.signature-title {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #e3e3e6;
+  font-size: 32px;
+  height: 81px;
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+
+.signature-title > span {
+  position: absolute;
+  /* z-index: 10000; */
+  width: 0;
+  height: 0;
+  top: 10%;
+  right: 42%;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 30px solid #e3e3e6;
+}
+.account-balance {
+  text-align: left;
+  padding: 0 1vw;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  color: #8e8e8f;
+}
+.account-balance-details {
+  margin-top: 4vh;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid #8e8e8f;
+}
+.origin-link {
+  margin-top: 2vh;
+  padding: 0 1vw;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.origin-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.signature-request p {
+  font-size: 20px;
+}
+.voyr-p-container {
+  text-align: left;
+  padding: 0 1vw;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.301);
+}
+.signature-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  height: 136px;
+}
+.signature-buttons button:hover {
+  cursor: pointer;
+}
+.signature-btn1,
+.signature-btn2 {
+  height: 69px;
+  font-size: 20px;
+  border-radius: 7px;
+  width: 184px;
+  outline: none;
+}
+.signature-btn1 {
+  color: #8e8e8f;
+  border-color: #8e8e8f;
+}
+.signature-btn2 {
+  color: #33a2ec;
+  border-color: #89c8f3;
+  background: white;
+}

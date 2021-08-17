@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79.147" height="80.339" viewBox="0 0 79.147 80.339">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.813" cy="0.2" r="0.759" gradientTransform="matrix(0.988, 0.151, -0.105, 0.692, 0.419, 1.303)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="-1.65" y1="14.384" x2="-1.623" y2="15.177" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a5e89"/>
+      <stop offset="1" stop-color="#2a5e89" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.496" cy="0.59" r="0.715" gradientTransform="translate(-1.157 2.014) scale(0.7 0.873)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#042b76"/>
+      <stop offset="1" stop-color="#2e75f8"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="-5.306" y1="24.529" x2="-5.206" y2="24.029" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#89269d"/>
+      <stop offset="0.34" stop-color="#a40000"/>
+      <stop offset="1" stop-color="#89269d" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-5.665" y1="40.231" x2="-5.609" y2="39.231" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2ad4ff"/>
+      <stop offset="1" stop-color="#2ad4ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_2_1_" transform="translate(0 9.151)">
+    <g id="Layer_1-2" transform="translate(0 -9.151)">
+      <path id="Path_208" data-name="Path 208" d="M18,128.61a38.3,38.3,0,1,1,38.226,38.141A38.428,38.428,0,0,1,18,128.61Zm61.615-.1a23.34,23.34,0,1,0-23.432,23.248h.057A23.37,23.37,0,0,0,79.615,128.511Z" transform="translate(-15.447 -86.412)" fill="#ed1c24"/>
+      <path id="Path_209" data-name="Path 209" d="M161.421,212.8a20.872,20.872,0,1,1-.1,0Zm3.674,16.113a3.752,3.752,0,0,1,3.688,3.674,3.807,3.807,0,0,1-3.674,3.957,3.876,3.876,0,0,1-3.957-3.773v-.17A3.806,3.806,0,0,1,165.095,228.913Zm-9.049,7.362a6.334,6.334,0,0,1,6.5,6.227,6.4,6.4,0,0,1-6.3,6.5h-.213a6.363,6.363,0,0,1,.014-12.723Z" transform="translate(-120.571 -187.946)" fill="#ed1c24" fill-rule="evenodd"/>
+      <g id="layer1" transform="translate(0 0)">
+        <path id="path4987" d="M154.57,202.328a26.035,26.035,0,0,1-52.07,0h0a26.035,26.035,0,0,1,52.07,0Z" transform="translate(-87.961 -160.299)" fill="#212121"/>
+        <path id="path5514" d="M144.813,190.657a27.957,27.957,0,1,0-27.957,27.957A27.958,27.958,0,0,0,144.813,190.657Zm-5.135,0a22.822,22.822,0,1,1-22.822-22.808h0a22.794,22.794,0,0,1,22.822,22.765Z" transform="translate(-76.29 -148.628)" fill="#a3a3a3"/>
+        <path id="path4989" d="M90.94,132.6a32.233,32.233,0,1,0,32.24,32.226h0A32.289,32.289,0,0,0,90.94,132.6Zm0,5.915A26.318,26.318,0,1,1,64.629,164.84h0a26.281,26.281,0,0,1,26.255-26.311A.085.085,0,0,1,90.94,138.515Z" transform="translate(-50.374 -122.798)" fill="url(#radial-gradient)"/>
+        <path id="path5538" d="M182.237,237.2a17.406,17.406,0,0,1,0,34.808h0a17.406,17.406,0,0,1,0-34.808Z" transform="translate(-141.67 -209.475)" fill="none"/>
+        <path id="path5552" d="M242.491,322.293a7.451,7.451,0,1,1,7.191-7.447A7.331,7.331,0,0,1,242.491,322.293Z" transform="translate(-201.925 -269.117)" fill="none"/>
+        <path id="path5594" d="M227.3,311a9.7,9.7,0,1,1,9.7-9.7A9.7,9.7,0,0,1,227.3,311Z" transform="translate(-186.736 -255.664)" fill="none" opacity="0.56"/>
+        <path id="path5616" d="M166.115,198.7A20.388,20.388,0,0,0,146.3,214.331h39.63A20.391,20.391,0,0,0,166.115,198.7Z" transform="translate(-125.549 -173.588)" fill="url(#linear-gradient)"/>
+        <path id="path5649" d="M194.52,253.2a15.12,15.12,0,1,1,0,30.24h0a15.12,15.12,0,1,1,0-30.24Z" transform="translate(-153.954 -223.026)" fill="none"/>
+        <path id="path5598" d="M216.939,416.3c-5.759,0-10.439,4.085-10.439,9.135a8.367,8.367,0,0,0,.44,2.638,22.943,22.943,0,0,0,19.46,1.248,8.216,8.216,0,0,0,.979-3.872C227.379,420.4,222.712,416.3,216.939,416.3Z" transform="translate(-177.21 -366.258)" opacity="0.34" fill="url(#radial-gradient-2)"/>
+        <path id="path5660" d="M258.565,279.322c0,1.617-2.425,2.922-5.432,2.922s-5.432-1.3-5.432-2.922,2.44-2.922,5.432-2.922S258.565,277.7,258.565,279.322Z" transform="translate(-212.566 -241.166)" fill="#5fd3bc" opacity="0.38"/>
+        <path id="rect5762" d="M260.73,363.5l-6.539.156-1.291,10.17a11.805,11.805,0,0,0,4.525.894,11.3,11.3,0,0,0,4.865-1.05Z" transform="translate(-217.029 -318.05)" opacity="0.93" fill="url(#linear-gradient-2)"/>
+        <path id="path5779" d="M241.526,258.722c0,1.617-4.085,2.922-9.12,2.922s-9.106-1.3-9.106-2.922,4.085-2.922,9.12-2.922S241.526,257.1,241.526,258.722Z" transform="translate(-191.627 -223.103)" opacity="0.38" fill="url(#linear-gradient-3)"/>
+        <path id="path5885" d="M155.9,207.735a25.753,25.753,0,0,1-51.5.61v-.61h0a25.753,25.753,0,0,1,51.5,0Z" transform="translate(-89.592 -165.437)" fill="none" opacity="0.68"/>
+        <path id="path5895" d="M155.005,212.383a25.3,25.3,0,0,1-50.4-4.567h0a25.3,25.3,0,1,1,50.438,4.028A3.2,3.2,0,0,1,155.005,212.383Z" transform="translate(-89.702 -167.362)" fill="none" opacity="0.68"/>
+        <path id="SVGID_x5F_1_x5F_" d="M124.9,175.214a22.4,22.4,0,1,1-.071-.014A.128.128,0,0,0,124.9,175.214Z" transform="translate(-84.529 -159.356)" fill="none"/>
+        <text id="VOYR_" data-name="VOYR " transform="translate(0 1)" font-size="1" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">VOYR </tspan></text>
+        <path id="path5831" d="M271.674,330.479l-1.9.723-1.674-1.078.227-1.8,1.9-.723,1.66,1.078Z" transform="translate(-230.073 -285.886)" fill="#ff7f2a" opacity="0.68"/>
+        <path id="path5789" d="M286.582,336.728l-2.383,1.035-2.1-1.546.284-2.582,2.383-1.035,2.1,1.546Z" transform="translate(-242.087 -290.39)" fill="#636667" opacity="0.68"/>
+        <path id="path5987" d="M154.239,219.25a25,25,0,1,1-49.488-7.092h0a25,25,0,1,1,49.488,7.092Z" transform="translate(-89.673 -172.654)" fill="none" opacity="0.68"/>
+      </g>
+    </g>
+  </g>
+</svg>

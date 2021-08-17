@@ -1,0 +1,44 @@
+.iconCard {
+  color: gray;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 8px;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}
+
+.iconCard_text {
+  margin-top: -1px;
+  padding: 0;
+  font-size: 0.8rem;
+}
+.iconCard_icon {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1024px) {
+  .iconCard_text {
+    font-size: 0.8rem !important;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .iconCard {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 8px;
+  }
+  .iconCard_icon {
+    font-size: 0.5rem !important;
+    width: 0.5rem;
+  }
+  .iconCard_text {
+    font-size: 0.9rem !important;
+    margin-top: 5px;
+    display: none;
+  }
+}

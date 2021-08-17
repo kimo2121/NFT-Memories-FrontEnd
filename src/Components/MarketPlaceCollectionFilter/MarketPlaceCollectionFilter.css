@@ -1,0 +1,21 @@
+.marketplace-collection-filter {
+  height: 296px !important;
+}
+.filter-container {
+  margin-left: 26px;
+  margin-top: 25px;
+  height: 195px;
+  overflow-y: scroll;
+}
+.each-collection-item {
+  margin-top: 8px;
+  align-items: center;
+  display: flex;
+  width: fit-content;
+}
+.each-collection-item img {
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+}
